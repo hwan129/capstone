@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+}
+
+.main_page_container {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#main_page_button {
+  text-align: center;
+  background-color: #96e6ff;
+
+  padding: 50px;
+  font-size: 30px;
+  border-radius: 20px;
+  cursor: pointer;
+}

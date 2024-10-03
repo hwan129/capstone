@@ -1,24 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import { Route, BrowserRouter, Routes } from "react-router-dom";
+import Main from "./pages/Mainpage";
+import MiniMap from "./pages/MiniMap";
+import GaussianMap from "./pages/GaussianMap";
+import Driving from "./pages/Driving";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Main />} />
+        <Route path="/minimap" element={<MiniMap />} />
+        <Route path="/gaussianmap" element={<GaussianMap />} />
+        <Route path="/driving" element={<Driving />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

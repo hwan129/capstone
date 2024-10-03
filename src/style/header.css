@@ -1,0 +1,16 @@
+.header_container {
+  display: flex;
+  justify-content: space-between;
+
+  background-color: #c0c0c0;
+}
+
+.header_left {
+  display: flex;
+}
+
+.header_icon {
+  padding: 10px 20px;
+
+  cursor: pointer;
+}

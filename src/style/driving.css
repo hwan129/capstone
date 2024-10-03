@@ -1,0 +1,17 @@
+.driving_statebar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ff4747;
+  padding: 20px;
+
+  cursor: pointer;
+}
+
+.driving_map {
+  background-color: #c0c0c0;
+  height: 700px;
+  width: 100%;
+
+  font-size: 100px;
+}

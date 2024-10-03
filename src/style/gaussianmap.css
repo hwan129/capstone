@@ -1,0 +1,40 @@
+/* .gaussian_map_container {
+  height: 80vh;
+  width: 90vw;
+} */
+
+.gaussian_map {
+  background-color: #c0c0c0;
+  height: 700px;
+  width: 100%;
+
+  font-size: 100px;
+}
+
+.gaussian_statebar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff2c5;
+  padding: 20px;
+}
+
+.gaussian_complete {
+  position: absolute;
+  right: 0;
+
+  display: flex;
+}
+
+.gaussian_complete_btn {
+  padding: 10px 15px;
+  margin: 0 10px;
+  background-color: #c0c0c0;
+  border-radius: 20px;
+
+  cursor: pointer;
+}
+
+#gaussian_complete_btn_cancel {
+  background-color: #ff9090;
+}
