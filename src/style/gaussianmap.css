@@ -3,9 +3,15 @@
   width: 90vw;
 } */
 
+.gaussian_container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
 .gaussian_map {
   background-color: #c0c0c0;
-  height: 700px;
+  height: 100%;
   width: 100%;
 
   font-size: 100px;
