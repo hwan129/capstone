@@ -27,11 +27,11 @@ export default function GaussianMap() {
             취소
           </div>
           <div className="gaussian_complete_btn" onClick={toDriving}>
-            선택완료
+            선택
           </div>
         </div>
       </div>
-      <div className="gaussian_map">가우시안</div>
+      <div className="gaussian_map"></div>
     </div>
   );
 }
