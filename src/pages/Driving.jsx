@@ -12,8 +12,8 @@ export default function Driving() {
   return (
     <div className="driving_container">
       <Header />
-      <div className="driving_statebar">
-        <div onClick={toMiniMap}>안내중지</div>
+      <div onClick={toMiniMap} className="driving_statebar">
+        <div>안내중지</div>
       </div>
       <div className="driving_map">미니맵</div>
     </div>
